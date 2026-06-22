@@ -1,0 +1,31 @@
+# ==============================================================================
+# CPRD SAFE HAVEN PROJECT BLACKLIST: NEVER COMMIT EXTRACTS OR RESULTS
+# ==============================================================================
+
+# Raw CPRD Data Subfolders and Text Extracts
+data/
+*.txt
+*.csv
+*.xlsx
+
+# Intermediate Pipeline Binary Checkpoints (RAM state dumps)
+*.rds
+*.RData
+*.Rhistory
+*.RDataTmp
+
+# RStudio System Environment Configurations & Hidden Caches
+.Rproj.user/
+.Ruserdata/
+.Rhistory
+.Rapp.history
+
+# Knitted Documentation Output Buffers
+*.html
+*.docx
+*.pdf
+*.log
+
+# Operating System Hidden Junk Files
+.DS_Store
+Thumbs.db
